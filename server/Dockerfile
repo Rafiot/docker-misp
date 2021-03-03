@@ -75,7 +75,7 @@ FROM debian:buster-slim as python-build
     WORKDIR /wheels
     RUN rm Sphinx-1.5.5-py2.py3-none-any.whl \
            Sphinx-1.3.6-py2.py3-none-any.whl \
-           tox-3.22.0-py2.py3-none-any.whl
+           tox*.whl
 
 
 FROM debian:buster-slim
